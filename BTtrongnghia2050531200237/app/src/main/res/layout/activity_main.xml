@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@drawable/anhnen"
+    >
+    <TextView
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:hint="nhập tên người dùng"
+        android:id="@+id/edittextuser"
+        android:backgroundTint="#30ffffff"
+        android:layout_width="match_parent"
+        android:background="@drawable/duongvien1"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:hint="nhập mật khẩu"
+        android:id="@+id/edittextpassword"
+        android:backgroundTint="#30ffffff"
+        android:layout_width="match_parent"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:background="@drawable/duongvien1"
+        android:layout_height="wrap_content"></EditText>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginRight="30dp"
+            android:id="@+id/buttondangky"
+            android:text="ĐĂNG KÝ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+        <Button
+            android:id="@+id/buttondangnhap"
+            android:text="ĐĂNG nhập"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="100dp"
+        android:text="THOÁT"
+        android:id="@+id/buttonthoat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+</LinearLayout>
